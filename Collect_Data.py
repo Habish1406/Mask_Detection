@@ -20,4 +20,4 @@ while True:
          break
 capture.release()
 cv2.destroyAllWindows()
-np.save('with_mask',data)
+np.save('without_mask',data) ##while capture a picture without mask, After that you have to change it to With_mask and capture a face with mask
